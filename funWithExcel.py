@@ -2,9 +2,10 @@
 import openpyxl as op
 #openpycl is a python library for managing xlsx files
 
-#use sample file inn Files\\sampleExcel.xlsx
-book = op.load_workbook("Files\\sampleExcel.xlsx")#opening the file and storing the handle in the var 
-#for linux use / instead of \\ 
+#use sample file in Files/sampleExcel.xlsx
+#opening the file and storing the handle in the var
+book = op.load_workbook("Files\\sampleExcel.xlsx") #for windows users
+#book = op.load_workbook("Files/sampleExcel.xlsx") #for linux users
 
 names = book.sheetnames #.sheetnames returns the sheetnames as a list 
 
