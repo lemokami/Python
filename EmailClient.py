@@ -37,3 +37,5 @@ messa = sub + message #making the message
 conn.sendmail(email , rcemail,messa) #sending the email
 
 print("\nMESSAGE SENT SUCCESSFULLY") # message sent successfully 
+
+conn.quit() #quitting the connection
