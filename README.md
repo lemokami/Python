@@ -12,7 +12,11 @@ All the programs are done by me and is free to use and study and so anything you
 ## Programs
 
 ### 1. HelloWorld.py 
-A simple Hello World program where we use print() function to print the message "Hello World!"
+A simple Hello World program where we use **print()** function to print the message "Hello World!"
 
+> print( ) -> The print( ) function prints the specified
+ message on the screen or the output device.The message can be string or any object wich will be converted to string on excution 
+
+```python
     print("Hello world!!!")
-
+```
