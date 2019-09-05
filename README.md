@@ -18,5 +18,5 @@ A simple Hello World program where we use **print()** function to print the mess
     print("Hello world!!!")
 ```
 
-**print( )** -> The print( ) function prints the specified
- message on the screen or the output device.The message can be string or any object wich will be converted to string on excution 
+>**print( )** : The print( ) function prints the specified
+ message on the screen or the output device.The message can be of string type or else it will be converted to a string on printing 
