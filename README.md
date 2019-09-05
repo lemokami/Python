@@ -11,7 +11,7 @@ All the programs are done by me and is free to use and study and so anything you
 
 ## Programs
 
-### 1. [HelloWorld.py](../blob/master/HelloWorld.py) 
+### 1. [HelloWorld.py](../master/HelloWorld.py) 
 A simple Hello World program where we use **print()** function to print the message "Hello World!"
 
 ```python
