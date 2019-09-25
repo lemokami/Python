@@ -1,4 +1,4 @@
-
+#inheritance of methods and properties from parent to child 
 curr_year = 2019 #making a variable to specify current year to find the birth year
 
 class Human(): #making the parent class human
@@ -25,9 +25,8 @@ class Student(Human):
         self.cclass = cclass #since this is a property of this class only we have to assign it
 
     def __str__(self): # returns the string when object is made
-        return("{} is in {} grade and was born in {} and is {} years old".format(self.name,self.cclass,self.GetBirthYear(),self.age))
+        return("{} is in {} grade and is {} years old".format(self.name,self.cclass,self.age))
         #from here we can see that the child class can have the parent's properties as well as methods
-        #we can call the parents methods from here to find the birthyear(here)
 
 
 Sam  = Student("Sam Benedict",15,10) #makes an object of class Student which is a child of Human class 
