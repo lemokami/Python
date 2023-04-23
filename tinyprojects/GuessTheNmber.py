@@ -13,16 +13,19 @@ i = 0
 num = int(input("Guess the Number:"))
 
 while(1):
-    i +=1
+    i += 1
     if(num == prenum):
         print("WoW,You are Right")
-        print(f"You made it in {i} iterations")
+        if i == 1:
+            print(f"You made it in the first iteration")
+        else:
+            print(f"You made it in {i} iterations")
         break
     elif(abs(num-prenum)<=5):
         print("Hotter")
     elif(abs(num-prenum)<=10):
         print("Hot")
-    elif(abs(num-prenum)>10):
+    else:
         print("Cold")
-    num =int(input("\nGuess the Number:"))
+    num = int(input("\nGuess the Number:"))
     
