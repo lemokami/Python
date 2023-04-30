@@ -1,4 +1,4 @@
-print("Find the reverse of a string\n") #finds the reverse of a given string
+print("Find the reverse of a string\n") #to print the reverse of the string
 
 word = input("Enter the string:") #taking in the string
 
